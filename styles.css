@@ -1,21 +1,20 @@
 :root {
-  --button:#3882F6;
-  --dark-bg:#1F2937;
+  --button: #3882f6;
+  --dark-bg: #1f2937;
   --dark-bg-light-text: #f9faf8;
-  --quote-bg: #E5E7Eb;
-  --quote-text: #1F2937;
-
+  --quote-bg: #e5e7eb;
+  --quote-text: #1f2937;
 }
 
 /* *{
   border: 1px solid black;
 } */
-body{
+body {
   height: 100vh;
   width: 80vw;
   max-width: 1200px;
   min-width: 800px;
-  margin:0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -23,98 +22,95 @@ body{
   background-color: cornsilk;
 }
 
-.header{
+.header {
   display: flex;
   background-color: var(--dark-bg);
-  color:var(--dark-bg-light-text);
+  color: var(--dark-bg-light-text);
   font-size: 24px;
   justify-content: space-between;
 }
-.header-links{
+.header-links {
   display: flex;
   gap: 32px;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-.main-page{
+.main-page {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  width:80%;
+  width: 80%;
   align-self: center;
   gap: 24px;
 }
 
-.corners{
+.corners {
   border-radius: 24px;
-  padding: 24px ;
+  padding: 24px;
 }
 
-.mp-overview{
+.mp-overview {
   display: flex;
   background-color: var(--dark-bg);
   color: var(--dark-bg-light-text);
 }
 
-.info-part{
+.info-part {
   display: flex;
   flex-direction: column;
 }
 
-.info-image{
+.info-image {
   height: 150px;
   width: 150px;
 }
 
-.mp-random-information{
+.mp-random-information {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.info-squares{
+.info-squares {
   display: flex;
   justify-content: space-evenly;
 }
 
-.square{
+.square {
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  border: 3px solid lightskyblue
-
+  border: 3px solid lightskyblue;
 }
-.mp-quote{
+.mp-quote {
   background-color: var(--quote-bg);
   color: var(--quote-text);
-
 }
 
-.mp-signup{
+.mp-signup {
   background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.signup-box{
+.signup-box {
   width: 80%;
 
   background-color: var(--button);
 }
 
-.footer{
+.footer {
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
   background-color: var(--dark-bg);
   color: var(--dark-bg-light-text);
 }
 
-button{
+button {
   background-color: var(--button);
-  color:aliceblue
-
+  color: aliceblue;
 }
